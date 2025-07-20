@@ -1,3 +1,7 @@
+---
+title: "End-to-end encryption"
+---
+
 # End-to-end encryption
 
 <!-- introduction -->
@@ -48,7 +52,7 @@ happens on platforms like Gmail or Whatsapp, most of our though are shared on
 Twitter or Reddit, and most of our value is exchanged on platforms such as
 Amazon or Uber.
 
-![age-of-platforms](age-of-platforms.jpg)
+<!-- ![age-of-platforms](age-of-platforms.jpg) -->
 
 And all of this is fine for a while. Platforms are wonderful, they help people
 connect and let the economy grow. They even protect our communication. We hear
@@ -69,7 +73,7 @@ and the messages are decrypted on your correspondent's device. This way, the
 platform only sees the encrypted message, revaling no information about the
 cleartext.
 
-![e2ee](e2ee.jpg)
+![e2ee](e2ee.svg)
 
 ## Original version
 
