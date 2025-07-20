@@ -1,0 +1,109 @@
+/* Main Styles */
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-content {
+    /*max-width: 800px;*/
+    width: 100%;
+    text-align: center;
+}
+
+b {
+    font-weight: 700;
+}
+
+/* Chakra Colors - Light versions for readability */
+.section-root {
+    background-color: #fef2f2; /* Light red */
+}
+
+.section-sacral {
+    background-color: #fff7ed; /* Light orange */
+}
+
+.section-solar {
+    background-color: #fefce8; /* Light yellow */
+}
+
+.section-heart {
+    background-color: #f0fdf4; /* Light green */
+}
+
+.section-throat {
+    background-color: #eff6ff; /* Light blue */
+}
+
+.section-third-eye {
+    background-color: #f3f4f6; /* Light indigo/gray */
+}
+
+.section-crown {
+    background-color: #faf5ff; /* Light purple */
+}
+
+/* Typography */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #374151;
+}
+
+h3 {
+    font-size: 2.0rem;
+    margin-bottom: 1.5rem;
+    color: #374151;
+}
+
+
+p {
+    font-size: 1.125rem;
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+/* Profile Photo */
+.profile-photo {
+    margin-top: 2rem;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    .profile-photo img {
+        width: 120px;
+        height: 120px;
+    }
+}
